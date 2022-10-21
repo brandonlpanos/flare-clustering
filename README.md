@@ -3,7 +3,7 @@ We used the k-means algorithm to efficiently analyze millions of Mg II spectra c
 The k-means algorithm is a simple example of a vector quantization, whereby centroids are used to represent a collection of similar looking data.
 This method generalizes the idea of binning, where small high frequency variations can be safely ignored, allowing one to extend from scalars too 
 abstract vectorial objects such as shapes. We found similar spectral pattern’s over our entire dataset, including a universal flaring profile and 
-ribbon front profiles that appear co-temporal and spatial with X-ray signatures of both GOES and RHESSI. This continuity of the results across
+ribbon front profiles that appear co-temporaly and spatial with X-ray signatures from both GOES and RHESSI. This continuity of the results across
 flare events suggests shared chromospheric physics. 
 
 ![](images/kmeans_results.png)
